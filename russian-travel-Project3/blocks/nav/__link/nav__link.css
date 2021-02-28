@@ -1,0 +1,9 @@
+.nav__link {
+  text-decoration: none;
+  color: #fff;
+  /*выше убрано подчеркивание ссылок*/
+}
+
+.nav__link:hover {
+  opacity: 0.8;
+}

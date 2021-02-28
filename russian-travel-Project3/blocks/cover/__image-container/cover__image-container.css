@@ -1,0 +1,8 @@
+.cover__image-container {
+  background: #2A2C2F;
+  display: grid;
+}
+
+.cover__image-container:hover {
+  opacity: 0.8;
+}

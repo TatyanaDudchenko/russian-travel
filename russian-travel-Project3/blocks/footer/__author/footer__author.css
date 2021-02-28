@@ -1,0 +1,13 @@
+.footer__author {
+  margin: 0; /*сброшены заданные браузером внешние отступы*/
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__author {
+    padding-top: 48px;
+    line-height: 14px;
+  }
+}

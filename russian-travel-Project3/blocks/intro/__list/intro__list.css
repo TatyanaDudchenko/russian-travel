@@ -1,0 +1,9 @@
+.intro__list {
+  list-style-type: none; /*убраны маркеры ненумерованного списка*/
+  margin: 0; /*сброшены заданные браузером внешние отступы*/
+  padding-top: 33px;
+  padding-left: 0; /*сброшен заданный браузером внутренний отступ*/
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}

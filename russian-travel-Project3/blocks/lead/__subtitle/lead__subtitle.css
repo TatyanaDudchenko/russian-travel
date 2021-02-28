@@ -1,0 +1,26 @@
+.lead__subtitle {
+  text-align: center;
+  margin: 0 auto; /*сброшены заданные браузером внешние отступы и отцентровано по горизонтали*/
+  max-width: 640px;
+  padding-top: 32px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    min-width: 288px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__subtitle {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 288px;
+  }
+}

@@ -1,0 +1,16 @@
+.cover__title {
+  max-width: 560px;
+  padding-bottom: 32px;
+  text-align: center;
+  margin: 0 auto; /*сброшены заданные браузером внешние отступы и отцентровано по горизонтали*/
+  font-size: 72px;
+  line-height: 76px;
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    padding-bottom: 16px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

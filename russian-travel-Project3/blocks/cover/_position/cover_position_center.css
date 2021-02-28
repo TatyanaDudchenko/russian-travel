@@ -1,0 +1,6 @@
+.cover_position_center {
+  grid-row: 1;
+  grid-column: 1/-1;
+  align-self: center;
+  justify-self: center;
+}

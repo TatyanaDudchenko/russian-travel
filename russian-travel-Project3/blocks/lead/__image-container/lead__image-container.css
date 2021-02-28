@@ -1,0 +1,23 @@
+.lead__image-container {
+  display: flex;
+  flex-direction: column;
+  padding: 56px 48px 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__image-container {
+    padding: 64px 148px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image-container {
+    padding: 56px 0 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__image-container {
+    padding: 40px 0 0;
+  }
+}

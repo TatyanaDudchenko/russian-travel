@@ -1,0 +1,20 @@
+.intro__text {
+  margin: 0; /*сброшены заданные браузером внешние отступы*/
+  padding-top: 40px;
+  max-width: 690px;
+  font-size: 16px;
+  line-height: 26.08px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__text {
+    max-width: 100%;
+  }
+}

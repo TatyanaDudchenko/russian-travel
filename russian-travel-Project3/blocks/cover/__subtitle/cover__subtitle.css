@@ -1,0 +1,14 @@
+.cover__subtitle {
+  max-width: 360px;
+  text-align: center;
+  margin: 0 auto; /*сброшены заданные браузером внешние отступы и отцентровано по горизонтали*/
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 425px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
