@@ -5,6 +5,7 @@
   margin: 0 auto; /*сброшены заданные браузером внешние отступы и отцентровано по горизонтали*/
   font-size: 72px;
   line-height: 76px;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 425px) {

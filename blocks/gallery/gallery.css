@@ -8,15 +8,19 @@
 @media screen and (min-width: 1280px) {
   .gallery {
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
     padding: 88px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 768px) {
+  .gallery {
+    gap: 16px;
   }
 }
 

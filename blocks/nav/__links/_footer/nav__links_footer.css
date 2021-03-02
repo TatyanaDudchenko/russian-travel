@@ -1,6 +1,11 @@
+.nav__links_footer {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
 
 @media screen and (max-width: 425px) {
-  .nav__links_type_mobile {
+  .nav__links_footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

@@ -1,11 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css);
-@import url(../fonts/Inter-Black.woff);
-@import url(../fonts/Inter-Black.woff2);
-@import url(../fonts/Inter-Bold.woff);
-@import url(../fonts/Inter-Bold.woff2);
-@import url(../fonts/Inter-Regular.woff);
-@import url(../fonts/Inter-Regular.woff2);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/header/header.css);
@@ -14,11 +8,10 @@
 @import url(../blocks/nav/__links/nav__links.css);
 @import url(../blocks/nav/__links-item/nav__links-item.css);
 @import url(../blocks/nav/__link/nav__link.css);
-@import url(../blocks/nav/__link/_lang-active/nav__link_lang-active_ru.css);
+@import url(../blocks/nav/__link/_decoration/nav__link_decoration_underline.css);
 @import url(../blocks/nav/__links/_size-header/nav__links_size-header_big.css);
 @import url(../blocks/nav/__links/_size-header/nav__links_size-header_small.css);
-@import url(../blocks/nav/__links/_size-footer/nav__links_size-footer_big.css);
-@import url(../blocks/nav/__links/_type/nav__links_type_mobile.css);
+@import url(../blocks/nav/__links/_footer/nav__links_footer.css);
 @import url(../blocks/nav/__links-item/_type/nav__links-item_type_mobile.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -29,6 +22,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__numeral/intro__numeral.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks/places/places.css);
@@ -41,11 +35,8 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__image-container/cover__image-container.css);
-@import url(../blocks/cover/__link/cover__link.css);
-@import url(../blocks/cover/__image/cover__image.css);
-@import url(../blocks/cover/__caption/cover__caption.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
