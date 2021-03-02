@@ -14,11 +14,6 @@
   opacity: 0.8;
 }
 
-@media screen and (min-width: 1280px) {
-  .cover__link {
-  min-height: 740px;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .cover__link {
