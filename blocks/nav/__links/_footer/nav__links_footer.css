@@ -4,9 +4,8 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .nav__links_footer {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     font-size: 24px;

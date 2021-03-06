@@ -8,16 +8,3 @@
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
 }
-
-@media screen and (max-width: 768px) {
-  .page {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .page {
-    max-width: 425px;
-    min-width: 320px;
-  }
-}
