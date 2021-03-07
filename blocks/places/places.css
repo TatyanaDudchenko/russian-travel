@@ -5,6 +5,13 @@
 @media screen and (min-width: 1280px) {
   .places  {
     margin: 0 auto;
+    max-width: 984px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+    max-width: calc(100% - 48px*2);
   }
 }
 

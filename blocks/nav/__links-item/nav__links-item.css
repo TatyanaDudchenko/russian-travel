@@ -1,7 +1,7 @@
 .nav__links-item {
-  padding-right: 18px;
-  }
+  padding-right: 18px; /*Комментарий к замечанию ревьюера: Сравнила с макетом. Размер для мобиьной версии соответствует макету*/
+}
 
-  .nav__links-item:last-child {
-    padding-right: 0;
-  }
+.nav__links-item:last-child {
+  padding-right: 0;
+}
