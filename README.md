@@ -23,7 +23,7 @@
 
 **GitHub Pages**
 
-* [Ссылка на GitHub Pages](https://tatyanagolendukhina.github.io/russian-travel/index.html)
+* [Ссылка на GitHub Pages](https://tatyanadudchenko.github.io/russian-travel/index.html)
 
 
 Приятного просмотра!
